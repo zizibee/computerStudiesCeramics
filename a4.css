@@ -5,8 +5,14 @@ body {
 	color: white;
 	margin: 30px 200px;
 	font-family: "verdana", arial, sans-serif;
+	width: 100%;
+	height: 100%;
+	position: fixed;
 }
-
+html {
+	width: 100%;
+	height: 100%;
+}
 div.main {
 	background-color: peachpuff;
 	margin-left: 195px;
@@ -17,7 +23,6 @@ div.main {
 	overflow-y: scroll;
 	position: fixed;
 }
-
 div.sidebar {
 	background-color: white;
 	color: black;
@@ -26,7 +31,6 @@ div.sidebar {
 	width: 145px;
 	padding: 25px;
 }
-
 .sidebar a:hover {
 	color: black;
 	background-color: peachpuff;
@@ -42,4 +46,39 @@ div.sidebar {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+h1.head {
+	border: 2px dotted white;
+	text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 5px;
+}
+th, td {
+	padding: 5px;
+	text-align: left;
+}
+tr:nth-child(even) {
+	background-color: white;
+}
+tr:nth-child(odd) {
+	background-color: lightgrey;
+}
+th {
+	background-color: black;
+	color: white;
+
+}
+table {
+	width: 100%;
+}
+.right {
+	float: right;
+}
+.left {
+	float: left;
 }
